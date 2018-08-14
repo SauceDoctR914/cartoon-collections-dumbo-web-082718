@@ -22,6 +22,6 @@ def long_planeteer_calls(array)
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
  array.map do |item|
-  puts cheese_types.find?(item)
+   cheese_types.detect(item)
 end
 end
