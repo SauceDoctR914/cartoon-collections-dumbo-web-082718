@@ -1,6 +1,6 @@
 def roll_call_dwarves(names)
-  names.each do |name|
-    puts name
+  names.each do |x|
+    puts names[x]
     end# code an argument here
   # Your code here
 end
