@@ -9,7 +9,7 @@ def summon_captain_planet(calls)# code an argument here
     calls[el] = el.upcase
     calls[el]
   end
-
+end
 def long_planeteer_calls# code an argument here
   # Your code here
 end
